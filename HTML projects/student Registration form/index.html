@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form...</h2>
+    <form>
+    <table align="center" cellspacing="15px">
+        <tbody>
+            <tr>
+                <td><label for="firstname">First name:</label></td>
+                <td><input type="text" placeholder="firstname" name="firstname" id="firstname" maxlength="40"></td>
+                <td>(max 40 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last name:</label></td>
+                <td><input type="text"  placeholder="lastname" id="lastname" name="lastname" maxlength="40"></td>
+                <td>(max 40 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth:</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Id:</label></td>
+                <td><input type="email" placeholder="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mobileNo">Mobile Number:</label></td>
+                <td><input type="number" name="mobileNo" id="mobileNo" maxlength="10"></td>
+                <td>(10 digit number)</td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                  <label for="male">Male<input type="radio" name="gender" id="male" value="male"></label>
+                  <label for="female">Female<input type="radio" name="gender" id="female" value="female"></label>
+                  <label for="hidden">Hidden<input type="radio" name="gender" id="hidden" value="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+               <td><label for="address">Address:</label></td>
+               <td><textarea name="address" placeholder="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="pincode">Pincode:</label></td>
+                <td><input type="number" name="pincode" id="pincode" maxlength="6"></td>
+                <td>(6 digit number)</td>
+            </tr>
+            <tr>
+                <td><label for="country">Contry:</label></td>
+                <td><input type="text" placeholder="country" value="India" id="country" name="country"></td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies:</label></td>
+                <td>
+                   <label for="reading">Reading<input type="checkbox" name="hobbies" id="reading" value="reading"></label>
+                   <label for="writing">Writing:<input type="checkbox" name="hobbies" id="writing" value="writing"></label>
+                    <label for="playing">Playing:<input type="checkbox" name="hobbies" id="playing" value="playing"></label>
+                    <label for="teaching">Teaching:<input type="checkbox" name="hobbies" id="teaching" value="teaching"></label>
+                    <label for="others">Others:<input type="checkbox" name="hobbies" id="others" value="others"></label>
+                </td>
+            </tr>
+            <tr>
+                <table align="center">
+                   <tr>
+                    <td>Qualifications:</td>
+                    <td>
+                    <thead>
+                        <th colspan=5>Please add Your data:</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S.No</td>
+                            <td>Examination</td>
+                            <td>Board/University</td>
+                            <td>Percentage</td>
+                            <td>Year of Passing</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>class X</td>
+                            <td><input type="text" placeholder="borad/University" name="board/University" ></td>
+                            <td><input type="number" placeholder="percentage" name="percentage" ></td>
+                            <td><input type="number" placeholder="year" name="passing year"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>class XII</td>
+                            <td><input type="text" placeholder="borad/University" name="board/University" ></td>
+                            <td><input type="number" placeholder="percentage" name="percentage" ></td>
+                            <td><input type="number" placeholder="year" name="passing year"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" placeholder="borad/University" name="board/University" ></td>
+                            <td><input type="number" placeholder="percentage" name="percentage" ></td>
+                            <td><input type="number" placeholder="year" name="passing year"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" placeholder="borad/University" name="board/University" ></td>
+                            <td><input type="number" placeholder="percentage" name="percentage" ></td>
+                            <td><input type="number" placeholder="year" name="passing year"></td>
+                        </tr> 
+            </tr>
+            <td>
+        </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
